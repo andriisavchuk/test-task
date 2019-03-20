@@ -1,29 +1,108 @@
 body {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    min-width: 320px;
-    position: relative;
-    line-height: 1.65;
-    padding: 20px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  padding: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    max-width: 1170px;
-    margin: 0 auto;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-@media (min-width:320px) { }
+@media (min-width:320px) {
+
+  /* Header Styles */
+
+  .header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ebebeb;
+    border: 1px solid #ddd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .header .title {
+    display: flex;
+    align-items: center;
+  }
+
+  .header .title h1  {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 15px;
+    color: #555555;
+    line-height: 20px;
+  }
+
+  .header .title span {
+    display: inline-block;
+    padding: 6px;
+    color: #fff;
+    background-color: #c52b21;
+    font-size: 9px;
+    line-height: 6px;
+    border-radius: 50%;
+  }
+
+  .header .total span {
+    font-size: 12px;
+    color: #747474;
+  }
+
+  .header .list-buttons .add-item {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+  }
+
+  .header .list-buttons .caret {
+    cursor: pointer;
+    padding: 14px 17px;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+
+  .header .list-buttons .caret:hover {
+    background-color: #d7d7d7;
+  }
+}
 
 /* smartphones, Android phones, landscape iPhone */
 @media (min-width:480px) { }
 
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-@media (min-width:768px) { }
+@media (min-width:768px) {
+
+  /* Header Styles */
+
+  .header {
+    padding: 20px;
+  }
+
+  .header .title h1  {
+    font-size: 24px;
+  }
+
+  .header .title span {
+    font-size: 11px;
+  }
+
+  .header .total span {
+    font-size: 16px;
+  }
+}
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:920px) { }

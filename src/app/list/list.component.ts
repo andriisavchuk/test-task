@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent implements OnInit {
+  systemDate: string;
 
   constructor() { }
 
   ngOnInit() {
+    this.systemDate = new Date().toDateString();
   }
 
 }

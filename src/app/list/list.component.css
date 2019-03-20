@@ -131,6 +131,7 @@
 
   .list .list-item-content .item-date i {
     font-size: 18px;
+    padding-right: 5px;
   }
 
   .more-button {

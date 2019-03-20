@@ -92,6 +92,9 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+  }
+
+  .list .list-item:first-child {
     border: 1px solid #ddd;
     border-left: 5px solid #0072bb;
   }

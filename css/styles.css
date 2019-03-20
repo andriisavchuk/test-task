@@ -92,10 +92,11 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    border: 1px solid #ddd;
+    border-bottom: none;
   }
 
   .list .list-item:first-child {
-    border: 1px solid #ddd;
     border-left: 5px solid #0072bb;
   }
 
@@ -166,6 +167,17 @@ h1, h2, h3, h4, h5, h6 {
   .action-buttons {
     /*display: flex;*/
     display: none;
+  }
+
+  /* Footer Styles */
+  .footer {
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+    border: 1px solid #ddd;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
   }
 
 }

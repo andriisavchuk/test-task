@@ -2,6 +2,11 @@
 *   Display Date in list item
 * */
 function displayCurrentDate() {
-  document.getElementById('item-date').innerHTML = new Date().toDateString();
+  let currentDate = new Date().toDateString();
+  let items = document.querySelectorAll('.current-date');
+
+  items.forEach(item => {
+    item.innerHTML = (currentDate);
+  })
 }
 displayCurrentDate();

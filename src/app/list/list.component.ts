@@ -8,7 +8,7 @@ import { ListsService } from './list.service';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent implements OnInit {
-  private systemDate: string;
+  systemDate: string;
   listItems = [];
   itemsNumber = 0;
   newItemsNumber = 1;

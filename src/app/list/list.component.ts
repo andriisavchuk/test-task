@@ -10,12 +10,17 @@ import { ListsService } from './list.service';
 export class ListComponent implements OnInit {
   private systemDate: string;
   listItems = [];
+  itemsNumber = 0;
+  newItemsNumber = 1;
 
   constructor(private listsService: ListsService) {}
 
   ngOnInit() {
     this.systemDate = new Date().toDateString();
-    this.listsService.getLists().subscribe(data => this.listItems = data);
+    this.listsService.getLists().subscribe(data => {
+      this.listItems = data;
+      this.itemsNumber = data.length;
+    });
   }
 
 }

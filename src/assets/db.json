@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Lorem, ipsum dolor.",
+    "description": "Lorem ipsum dolor sit amet.",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium in omnis laboriosam labore accusamus!",
+    "image": "../../assets/img/img1.jpg"
+  },
+  {
+    "name": "Lorem, ipsum dolor.",
+    "description": "Lorem ipsum dolor sit amet.",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium in omnis laboriosam labore accusamus!",
+    "image": "../../assets/img/img2.jpg"
+  },
+  {
+    "name": "Lorem, ipsum dolor.",
+    "description": "Lorem ipsum dolor sit amet.",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laudantium in omnis laboriosam labore accusamus!",
+    "image": "../../assets/img/img3.jpg"
+  }
+]
+

@@ -17,14 +17,14 @@
         <i class="fas fa-plus"></i>
       </button>
 
-      <button class="caret">
+      <button class="caret" (click)="listCollapsed = !listCollapsed">
         <i class="fas fa-caret-down"></i>
       </button>
     </div>
   </header>
 
   <main>
-    <ul class="list">
+    <ul class="list" *ngIf="listCollapsed">
       <li class="list-item" *ngFor="let item of listItems">
         <div class="list-item-block">
           <div class="list-item-image">

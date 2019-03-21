@@ -12,6 +12,7 @@ export class ListComponent implements OnInit {
   listItems = [];
   itemsNumber = 0;
   newItemsNumber = 1;
+  listCollapsed = false;
 
   constructor(private listsService: ListsService) {}
 

@@ -147,7 +147,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .more-button {
-     /*display: none;*/
     display: block;
     cursor: pointer;
     position: absolute;
@@ -173,7 +172,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .action-buttons {
-    /*display: flex;*/
     display: none;
     align-self: stretch;
     width: 40%;
